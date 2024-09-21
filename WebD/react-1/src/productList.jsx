@@ -1,10 +1,10 @@
-import productData from "../../public/data.js";
+import productData from "../public/data";
 import { useState } from "react";
 
 function ProductTable(){
 
 
-    const [productList, setProductList] = useState([]);
+    const [productsList, setProductList] = useState([]);
 
     setTimeout(() => {
         
@@ -26,7 +26,7 @@ function ProductTable(){
                 </thead>
                 <tbody>
 
-                    {productList.map((product, index) => {
+                    {productsList.map((product, index) => {
 
                         return (
 

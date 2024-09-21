@@ -31,8 +31,8 @@
 
 
 
-import { Header } from "./components/Header.jsx"
-import ProductTable from "./components/ProductTable.jsx";
+import { Myheader } from "./myheader.jsx"
+import {ProductList} from "./productList.jsx";
 export function App(){
 
 
@@ -42,10 +42,10 @@ export function App(){
         <>
 
             <header>
-                <Header title="My application title" />
+                <Myheader title="My application title" />
             </header>
             <main>
-                <ProductTable />
+                <ProductList />
             </main>
             <footer></footer>
 
